@@ -1,4 +1,4 @@
-# Tervetuloa
+# Hei olen Eetu Haikola, ja tervetuloa!
 Tästä löydät minun luomat nettisivut jotka toimivat osana minun CV:tä
 
 # Nettisivu CV avaaminen

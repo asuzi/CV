@@ -6,4 +6,4 @@ Aloitta painamalla tiedostojen nimien yläpuolella olevaa vihreä painiketta jos
 Valitse "Download ZIP" joka lataa sinulle pakatun tiedoston "CV-main.ZIP".<br>
 Avaa pakattu tiedosto ja mene CV kansioon.<br>
 Avaa "Index.html".<br>
-Jos index.html ei aukea; on kansiossa OHJEET.pdf joista voi olla hyötyä!
+Jos index.html ei aukea; on kansiossa OHJEET.pdf josta voi olla hyötyä!

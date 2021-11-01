@@ -217,7 +217,7 @@ h3{
     width: 100%;
     font-weight: 500;
     color: #fff;
-    font-size: 26px;
+    font-size: 23px;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -226,10 +226,11 @@ h3{
     transition: 0.5s;
 }
 .layer:hover h3{
-    bottom: 39%;
+    bottom: 29%;
     opacity: 1;
+    
 }
-@media(max-width: 800px){
+@media(max-width: 1025px){
     .layer h3{
         font-size: 13px;
     }
@@ -287,7 +288,7 @@ h3{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(kuvat/esdeath.png);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(kuvat/City-Sky-View-From-Above.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;

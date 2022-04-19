@@ -1,316 +1,294 @@
 <!DOCTYPE html>
 <html lang="fi">
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="with=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <title> Eetun kotisivut </title> 
+    <title> Eetun kotisivut </title>
     <link rel="icon" href="kuvat/title_logo.png" type="image/png">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
     <script src="https://kit.fontawesome.com/5a31e8b788.js" crossorigin="anonymous"></script>
-
 </head>
+
 <body>
     <section class="header">
         <nav>
             <a href="index.html"><img src="kuvat/logo.png"></a>
             <div class="nav-links" id="navLinks">
                 <i class="fas fa-sign-out-alt" onclick="hideMenu()"></i>
-                <ul>                    
+                <ul>
                     <li> <a href="index.html">ETUSIVU</a> </li>
-                    <li> <a href="#projektit">PROJEKTIT</a> </li>
-                    <li> <a href="#koulutus-osa">KOKEMUS</a> </li>
-                    <li> <a href="#cta">YHTEYSTIEDOT</a> </li>
+                    <li> <a href="#projects">PROJEKTIT</a> </li>
+                    <li> <a href="#education-part">KOKEMUS</a> </li>
+                    <li> <a href="#CV-PDF">YHTEYSTIEDOT</a> </li>
                     <li> <a href="english.html">ENGLISH</a> </li>
                 </ul>
             </div>
             <i class="fas fa-bars" onclick="showMenu()"></i>
         </nav>
-
         <div class="text-box">
             <h1>Eetu Haikola CV</h1>
-            <p>Luotu 28.06.2021<br>Olen <b>Ohjelmoija</b> , minulla on 2 vuoden kokemus ohjelmoinnista.<br>Ota minuun yhteyttä painamalla alla olevaa painiketta.</p>
-            <a href="mailto: eetu.haikola11@gmail.com" class="hero-btn">OTA MINUUN YHTYEYTTÄ</a>
-
+            <p>Luotu 28.06.2021<br>Olen <b>Ohjelmoija</b> , minulla on 2 vuoden kokemus ohjelmoinnista.<br>Ota minuun
+                yhteyttä painamalla alla olevaa painiketta.</p>
+            <a href="mailto: eetu.haikola11@gmail.com" class="button">OTA MINUUN YHTYEYTTÄ</a>
         </div>
-
     </section>
-<!---minusta--->
 
-<section class="minusta">
-    <h1 id="aloitetaan">Kuka minä olen?</h1>
-    <p>Olen opiskellut ohjemointia 2019 alusta asti. Olen tehnyt useita projekteja, niin itselleni kuin muille.<br>Pääpainoitteisesti opiskelen datan käsittelyä, mutta teen myös web-kehittämiseen liittyviä opintoja.</p>
+    <section class="about">
+        <h1>Kuka minä olen?</h1>
+        <p>Olen opiskellut ohjemointia 2019 alusta asti. Olen tehnyt useita projekteja, niin itselleni kuin
+            muille.<br>Pääpainoitteisesti opiskelen datan käsittelyä, mutta teen myös web-kehittämiseen liittyviä
+            opintoja.</p>
 
-<div class="row">
-    <div class="minusta-col">
-        <h3>Kokemus</h3>
-        <p>Minulla on yli 2 vuoden kokemus koodaamisesta ja,<br> olen tehnyt useita kymmeniä projekteja.</p>
-    </div>
-    <div class="minusta-col">
-        <h3>Tavoitteet</h3>
-        <p>Kehittää omia taitoja tietotekniikan alalla työskentelyssä ja,<br> myös kasvaa niin itsenäisenä henkilönä kuin tiimipelaajana.</p>
-    </div>
-    <div class="minusta-col">
-        <h3>Osaaminen</h3>
-        <p>Vahva <b>python</b> osaaminen ja tuntemus algoritmeista ja koneoppimisesta. <br> Olen <b>kouluttanut</b> eri teknologioita, tehnyt IT alaan liittyviä vastuu tehtäviä.<br>Olen <b>luonut</b> yrityksille ensimmäiset nettisivut.</p>
-    </div>
-</div>
-
-</section>
-
-<!-- projektit top3-->
-
-<section class="projektit" id="projektit">
-    <h1>Projekteja</h1>
-    <p>Olen tehnyt vuonna 2019 "kissat vs koirat" nimisen tekoälyn joka tunnista kuvista 71% tarkkuudella, onko niissä kissa vai koira.</p>
-    <p>2020 alussa tein Oulun Yliopistossa opiskellessani tekoäly tehtävän, jossa hyödynnettiin useita eri metodeja pacman videopelin pelaamiseen.</p>
-    <p>2020 lopussa loin ohjelman, joka ohjaa lennokkia ilmassa niin että se seuraa ihmisen kasvoja tietyltä etäisyydeltä.</p>
-
-    <div class="row">
-        <div class="projektit-col">
-            <img src="kuvat/pacman.jpg">
-            <div class="layer">
-                <h3 class="projektit-kuvaus">PACMAN - 2020<br>Opiskellessani Oulun Yliopistossa teimme tunnetun UC Berkeley's pacman projektin, osana opin-näytettä.<br> Tehtävä oli kaksi osainen ja molemmille osioille oli omat arvioinnit.<br><br> Osa 1. 18/25, Osa 2. 25/25</h3>
+        <div class="row">
+            <div class="about-col">
+                <h3>Kokemus</h3>
+                <p>Minulla on yli 2 vuoden kokemus koodaamisesta ja,<br> olen tehnyt useita kymmeniä projekteja.</p>
+            </div>
+            <div class="about-col">
+                <h3>Tavoitteet</h3>
+                <p>Kehittää omia taitoja tietotekniikan alalla työskentelyssä ja,<br> myös kasvaa niin itsenäisenä
+                    henkilönä kuin tiimipelaajana.</p>
+            </div>
+            <div class="about-col">
+                <h3>Osaaminen</h3>
+                <p>Vahva <b>python</b> osaaminen ja tuntemus algoritmeista ja koneoppimisesta. <br> Olen
+                    <b>kouluttanut</b> eri teknologioita, tehnyt IT alaan liittyviä vastuu tehtäviä.<br>Olen
+                    <b>luonut</b> yrityksille ensimmäiset nettisivut.
+                </p>
             </div>
         </div>
-        <div class="projektit-col">
-            <img src="kuvat/kissakoira.jpg">
-            <div class="layer">
-                <h3 class="projektit-kuvaus">CATS VS DOGS - 2019<br>Deep Learning projekti, projektissa käytetty Convolutional Neural Network (CNN) ratkaisua.<br> Tekoäly pystyy noin 71% tarkkuudella tunnistamaan kuvista onko siinä kissa vai koira. </h3>
+    </section>
+
+    <section class="projects" id="projects">
+        <h1>Projekteja</h1>
+        <p>Olen tehnyt vuonna 2019 "kissat vs koirat" nimisen tekoälyn joka tunnista kuvista 71% tarkkuudella, onko
+            niissä kissa vai koira.</p>
+        <p>2020 alussa tein Oulun Yliopistossa opiskellessani tekoäly tehtävän, jossa hyödynnettiin useita eri metodeja
+            pacman videopelin pelaamiseen.</p>
+        <p>2020 lopussa loin ohjelman, joka ohjaa lennokkia ilmassa niin että se seuraa ihmisen kasvoja tietyltä
+            etäisyydeltä.</p>
+
+        <div class="row">
+            <div class="projects-col">
+                <img src="kuvat/pacman.jpg">
+                <div class="layer">
+                    <h3 class="projects-kuvaus">PACMAN - 2020<br>Opiskellessani Oulun Yliopistossa teimme tunnetun UC
+                        Berkeley's pacman projektin, osana opin-näytettä.<br> Tehtävä oli kaksi osainen ja molemmille
+                        osioille oli omat arvioinnit.<br><br> Osa 1. 18/25, Osa 2. 25/25</h3>
+                </div>
+            </div>
+
+            <div class="projects-col">
+                <img src="kuvat/kissakoira.jpg">
+                <div class="layer">
+                    <h3 class="projects-kuvaus">CATS VS DOGS - 2019<br>Deep Learning projekti, projektissa käytetty
+                        Convolutional Neural Network (CNN) ratkaisua.<br> Tekoäly pystyy noin 71% tarkkuudella
+                        tunnistamaan kuvista onko siinä kissa vai koira. </h3>
+                </div>
+            </div>
+
+            <div class="projects-col">
+                <img src="kuvat/3dr-solo-cityscape-1080x1920 (1).jpg">
+                <div class="layer">
+                    <h3 class="projects-kuvaus">DRONE FACE RECOGNITION - 2020<br>Hyödyntämällä lennokin omaa Software
+                        Developement Kit (SDK) ja OpenCV kasvojentunnistinta loin ohjelman jolla lennokki lentäen seuraa
+                        kasvoja tietyn etäisyyden päästä.</h3>
+                </div>
             </div>
         </div>
-        <div class="projektit-col">
-            <img src="kuvat/3dr-solo-cityscape-1080x1920 (1).jpg">
-            <div class="layer">
-                <h3 class="projektit-kuvaus">DRONE FACE RECOGNITION - 2020<br>Hyödyntämällä lennokin omaa Software Developement Kit (SDK) ja OpenCV kasvojentunnistinta loin ohjelman jolla lennokki lentäen seuraa kasvoja tietyn etäisyyden päästä.</h3>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
-<!--KOULUTUKSET-->
+    <section class="education-part" id="education-part">
+        <h2 class="education-header">Koulutus/Työkokemus</h2>
+        <br>
+        <div class="container">
+            <div class="education-tabs">
+                <div class="button-education button--flex Active" data-target='#education'>
+                    <i class="fas fa-graduation-cap"></i>
+                    Koulutus
+                </div>
 
-<section class="Koulutus-osa" id="koulutus-osa">
-    <h2 class= "otsikko">Koulutus/Työkokemus</h2>
-    <p class="kuvaus"> </p>
-    <div class="container">
-        <div class="koulutus-tabs">
-            <div class="button-koulutus button--flex Active"data-target='#koulutus'>
-                <i class="fas fa-graduation-cap"></i>
-                Koulutus
+                <div class="button-education button--flex" data-target="#work">
+                    <i class="fas fa-briefcase"></i>
+                    Työ
+                </div>
             </div>
 
-            <div class="button-koulutus button--flex"data-target="#work">
-                <i class="fas fa-briefcase"></i>
-                Työ
-            </div>
-        </div>
-
-
-        <div class="sections">
-            <!-- content 1 -->
-            <div class="content Active" data-content id="koulutus">
-                <div class="data">
-                    <div>
-                        <h3 class="title">Tieto- ja viestintätekniikka</h3>
-                        <p class="text">Koulutuskeskus Salpaus</p>
+            <div class="sections">
+                <div class="content Active" data-content id="education">
+                    <div class="data">
                         <div>
-                            <p class="text">  <i class="fas fa-calendar-alt"> </i>
-                                10.08.2016 – 27.05.2019</p>
+                            <h3 class="title">Tieto- ja viestintätekniikka</h3>
+                            <p class="text">Koulutuskeskus Salpaus</p>
+                            <div>
+                                <p class="text"> <i class="fas fa-calendar-alt"> </i>
+                                    10.08.2016 - 27.05.2019</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="education-dot"></span>
+                            <span class="education-line"></span>
                         </div>
                     </div>
 
-                    <div>
-                        <span class="koulutus-dot"></span>
-                        <span class="koulutus-line"></span>
+                    <div class="data">
+                        <div></div>
+                        <span class="education-dot"></span>
+                        <div>
+                            <h3 class="title">Artificial Intelligence</h3>
+                            <p class="text">Oulun Yliopisto</p>
+                            <div>
+                                <p class="text"> <i class="fas fa-calendar-alt"> </i>
+                                    08.01.2020 - 20.02.2020</p>
+                            </div>
+                        </div>
+
+                        <div></div>
                     </div>
                 </div>
-            
 
+                <div class="sections">
+                    <div class="content" data-content id="work">
+                        <div class="data">
+                            <div>
+                                <h3 class="title">IT-Vastaava</h3>
+                                <p class="text">Pienkonekeskus</p>
+                                <div>
+                                    <p class="text"> <i class="fas fa-calendar-alt"></i>
+                                        03.04.2017 - 31.05.2017<br><i class="fas fa-calendar-alt"></i> 13.11.2017 –
+                                        16.03.2018 </p>
+                                </div>
+                            </div>
 
-        <div class="data">
-            <div></div>
-            <span class="koulutus-dot"></span>
-            <!--    <span class="koulutus-line"></span> -->
+                            <div>
+                                <span class="education-dot"></span>
+                                <span class="education-line"></span>
+                            </div>
+                        </div>
 
-            <div>
-                <h3 class="title">Artificial Intelligence</h3>
-                <p class="text">Oulun Yliopisto</p>
-                <div>
-                    <p class="text">  <i class="fas fa-calendar-alt"> </i>
-                        08.01.2020 – 20.02.2020</p>
-                </div>
-            </div>
+                        <div class="data">
+                            <div></div>
+                            <div>
+                                <span class="education-dot"></span>
+                                <span class="education-line"></span>
+                            </div>
+                            <div>
+                                <h3 class="title">IT-Helpdesk </h3>
+                                <p class="text">Koulutuskeskus Salpaus</p>
+                                <div>
+                                    <p class="text"> <i class="fas fa-calendar-alt"> </i>
+                                        18.03.2019 - 27.05.2019</p>
+                                </div>
+                            </div>
 
-            <div>
-            </div>
-        </div>
-            </div>
-        
-    
-<div class="sections">
-            <!-- content 2 -->
-            <div class="content" data-content id="work">
-                <div class="data">
-                    <div>
-                        <h3 class="title">IT-Vastaava</h3>
-                        <p class="text">Pienkonekeskus</p>
-                        <div>
-                            <p class="text">  <i class="fas fa-calendar-alt"></i>
-                                03.04.2017 – 31.05.2017<br><i class="fas fa-calendar-alt"></i> 13.11.2017 – 16.03.2018 </p>
+                            <div></div>
+                        </div>
+
+                        <div class="data">
+                            <div>
+                                <h3 class="title">IT-Tuki</h3>
+                                <p class="text">Barona ICT</p>
+                                <div>
+                                    <p class="text"> <i class="fas fa-calendar-alt"> </i>
+                                        6.9.2021 - Parhaillaan</p>
+                                </div>
+                            </div>
+                            <span class="education-dot"></span>
                         </div>
                     </div>
-
-                    <div>
-                        <span class="koulutus-dot"></span>
-                        <span class="koulutus-line"></span>
-            </div>
-        </div>
-
-
-        <div class="data">
-            <div></div>
-            <div>
-                <span class="koulutus-dot"></span>
-                <span class="koulutus-line"></span>
-</div>
-            <div>
-                <h3 class="title">IT-Helpdesk </h3>
-                <p class="text">Koulutuskeskus Salpaus</p>
-                <div>
-                    <p class="text">  <i class="fas fa-calendar-alt"> </i>
-                        18.03.2019 – 27.05.2019</p>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div>
-
-    </div>
-</div>
-
-
-
-        <div class="data">
-
-
-            <div>
-
-                <h3 class="title">IT-Tuki</h3>
-                <p class="text">Barona ICT</p>
+    <section class="recommendations">
+        <h1>Suosittelut</h1>
+        <div class="row">
+            <div class="recommendations-col">
+                <img src="kuvat/redba.jpg">
                 <div>
-                    <p class="text">  <i class="fas fa-calendar-alt"> </i>
-                        6.9.2021 – Parhaillaan</p>
+                    <p>Oikein asiallinen ja ahkera, osasi hommansa hyvin.</p>
+                    <h3>- Pienkonekeskus</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
                 </div>
             </div>
-            <span class="koulutus-dot"></span>
-            <!--<span class="koulutus-line"></span>-->
-        </div>
+            <div class="recommendations-col">
+                <img src="kuvat/logon-suoja-alue-900x900.jpg">
+                <div>
+                    <p>Nopeasti oppiva ja kova tekemään töitä, aina ajallaan.</p>
+                    <h3>- Koulutuskeskus Salpaus</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
             </div>
         </div>
-    </div>
-</div>
+    </section>
 
-</section>
+    <section class="CV-PDF" id="CV-PDF">
+        <h1>CV on myös saatavilla PDF muodossa<br> Painamalla alla olevaa painiketta avaat PDF muodossa olevan CV</h1>
+        <a href="CV-EETU-HAIKOLA-2020.pdf" target="_blank" class="button">AVAA CV</a>
+    </section>
 
-
-<!--kommentit-->
-
-<section class="kommentit">
-    <h1>Suosittelut</h1>
-    <div class="row">
-        <div class="kommentit-col">
-            <img src="kuvat/redba.jpg">
-            <div>
-                <p>
-                    Oikein asiallinen ja ahkera, osasi hommansa hyvin.
-                </p>
-                <h3>- Pienkonekeskus</h3>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
+    <section class="footer">
+        <h4 class="contacts-header">YHTEYSTIEDOT</h4>
+        <p>Puh. +48 533 536 799<br>eetu.haikola11@gmail.com</p>
+        <p class="contacts-teksti">Löydä minut myös muista medioista!</p>
+        <div class="icons">
+            <a href="mailto:eetu.haikola11@gmail.com" target="_blank" class="small-icon"> <i class="fas fa-envelope"
+                    style="font-size:24px;"></i></a>
+            <a href="https://github.com/asuzi" target="_blank" class="small-icon"> <i class="fab fa-github"
+                    style="font-size:24px;"></i></a>
+            <a href="https://www.linkedin.com/in/eetu-haikola-10471219a/" target="_blank" class="small-icon"> <i
+                    class="fab fa-linkedin" style="font-size:24px;"></i></a>
         </div>
-        <div class="kommentit-col">
-            <img src="kuvat/logon-suoja-alue-900x900.jpg">
-            <div>
-                <p>
-                    Nopeasti oppiva ja kova tekemään töitä, aina ajallaan.
-                </p>
-                <h3>- Koulutuskeskus Salpaus</h3>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-        </div>
-    </div>
-
-</section>
-
-<!--CV-->
-
-<section class="cta" id="cta">
-    <h1>CV on myös saatavilla PDF muodossa<br> Painamalla alla olevaa painiketta avaat PDF muodossa olevan CV</h1>
-    <a href="CV-EETU-HAIKOLA-2020.pdf" target="_blank" class="hero-btn">AVAA CV</a>
-
-</section>
-
-<!-- Footer -->
-<section class="footer">
-    <h4 class="yhteystiedot-header">YHTEYSTIEDOT</h4>
-    <p>Puh. +48 5335 36799<br>eetu.haikola11@gmail.com</p>
-    <p class="yhteystiedot-teksti">Löydä minut myös muista medioista!</p>
-    <div class="icons">
-
-        <a href="mailto:eetu.haikola11@gmail.com" target="_blank" class="kuvake">  <i class="fas fa-envelope"style="font-size:24px;"></i></a>
-        <a href="https://github.com/asuzi" target="_blank" class="kuvake"> <i class="fab fa-github"style="font-size:24px;"></i></a>
-        <a href="https://www.linkedin.com/in/eetu-haikola-10471219a/" target="_blank" class="kuvake"> <i class="fab fa-linkedin"style="font-size:24px;"></i></a>
-    </div>
-</section>
+    </section>
 
 
+    <script>
+        var navLinks = document.getElementById("navLinks");
 
-<!--  JavaScript   -->
-<script>
-// upper menu
-    var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
 
-    function showMenu(){
-        navLinks.style.right = "0";
-    }
-    function hideMenu(){
-        navLinks.style.right = "-200px";
-    }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
 
-// KOULU/TYÖ
+        const tabs = document.querySelectorAll('[data-target]'),
+            tabContents = document.querySelectorAll('[data-content]')
 
-const tabs = document.querySelectorAll('[data-target]'),
-    tabContents = document.querySelectorAll('[data-content]')
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                const target = document.querySelector(tab.dataset.target)
 
-tabs.forEach(tab=>{
-    tab.addEventListener('click', () =>{
-        const target = document.querySelector(tab.dataset.target)
+                tabContents.forEach(tabContent => {
+                    tabContent.classList.remove('Active')
+                })
+                target.classList.add('Active')
 
-        tabContents.forEach(tabContent =>{
-            tabContent.classList.remove('Active')
+                tabs.forEach(tab => {
+                    tab.classList.remove('Active')
+                })
+                tab.classList.add('Active')
+            })
         })
-        target.classList.add('Active')
-
-        tabs.forEach(tab =>{
-            tab.classList.remove('Active')
-        })
-        tab.classList.add('Active')
-    })
-})
-</script>
-
+    </script>
 </body>
 
 </html>
